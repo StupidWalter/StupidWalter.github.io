@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    display: block;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    margin: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin: 20px;
+}
+
+.container h1 {
+    color: green;
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.418);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(32, 32, 32);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.inputbox {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgb(32, 32, 32);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+}
+
+.submitbox button {
+    width: 100%;
+    height: 45px;
+    background: green;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
