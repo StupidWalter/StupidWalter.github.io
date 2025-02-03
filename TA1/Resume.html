@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title> Resume </title>
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <div id="container_2">
+            <button class="button" onclick="ChangeColor()">Change Color</button>
+        </div>
+        <div id="container">
+            <div class="separator_1">
+                <div class="top-1">
+                    <h1> Española, Walter Andrew D. </h1>
+                    <b> Contact Number: </b> 09XX-XXX-XXXX <br>
+                    <b> Address: </b> Valenzuela City, Philippines <br>
+                    <b> Email: </b> 202310587@fit.edu.ph <br>
+                </div>
+                <div class="top-2">
+                    <img src="Prof.jpeg">
+                </div>
+            </div>
+                <div class="inner">
+                    <hr>          
+                    <p>
+                        <h2> Objective: </h2>
+                        My very goal to this very day is to learn and gain more knowledge as long it takes. 
+                    </p>
+                </div>
+
+                <div class="inner">
+                    <h2> Academic Backgrounds: </h2>
+                    <div class="separator">
+                        <div class="box">
+                            <h4> Highschool: </h4>
+                        </div>
+                        <div>
+                            Lawang Bato National High School
+                        </div>
+                    </div>
+                    <div class="separator">
+                        <div class="box">
+                            <h4> Senior Highschool: </h4>
+                        </div>
+                        <div>
+                            Charis Christian School
+                        </div>
+                    </div>
+                    <div class="separator">
+                        <div class="box">
+                            <h4> College: </h4>
+                        </div>
+                        <div>
+                            Far Eastern University: Institute of Technology
+                        </div>
+                    </div>  
+                </div>
+                <div class="inner">
+                    <h2>Skills:</h2>
+                    <p>
+                        <h4> Computer Language: </h4>
+                        Html <br>
+                        CSS <br>
+                        Javascript <br>
+                        Java <br>
+                        C++ <br>
+                        Python <br>
+                        SQL
+                        <h4> Human Language </h4>
+                        German <br>
+                        English <br>
+                        Filipino
+                    </p>
+                </div>                    
+            </div>
+        </div>
+        <script>      
+            function ChangeColor() {
+                let container = document.getElementById("container");
+                if (container.style.backgroundColor == "red") {
+                    container.style.backgroundColor = "yellow";
+                    document.body.style.backgroundColor = "black";
+                }
+                else {
+                    container.style.backgroundColor = "red";
+                    document.body.style.backgroundColor = "white";
+                }
+            }
+        </script>
+    </body>
+</html>
