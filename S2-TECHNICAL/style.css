@@ -36,11 +36,17 @@ body {
 }
 
 #red { background-color: indigo;}
+
 #orange { background-color: violet; }
+
 #yellow { background-color: blue; }
+
 #green { background-color: green;}
+
 #blue { background-color: yellow;}
+
 #indigo { background-color: orange;}
+
 #violet { background-color: red; }
 
 #display-area {
@@ -58,5 +64,5 @@ body {
     left: 50%;
     transform: translateX(-50%);
     transition: top 1s cubic-bezier(0.34, 1.56, 0.64, 1), 
-                background-color 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+    background-color 1.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
